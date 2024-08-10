@@ -1,3 +1,2 @@
-`
-
-`
+`prints("test")`
+`print("test")`
