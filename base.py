@@ -18,7 +18,9 @@ for line in data.readlines():
             print(bun,"\n")
         elif line[0] == "print":
             print(bun)
+            
 
 
 
+data.close()
 sys.exit()
