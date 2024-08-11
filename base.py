@@ -14,10 +14,10 @@ for line in data.readlines():
         bun = line[1].split(")")
         bun = bun[0]
         bun = bun.replace('"','')
-        if line[0] == "prints":
-            print(bun,"\n")
-        elif line[0] == "print":
+        if line[0] == "outs":
             print(bun)
+        elif line[0] == "outt":
+            sys.stdout.write(bun)
             
 
 
