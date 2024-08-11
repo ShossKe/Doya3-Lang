@@ -1,6 +1,5 @@
 doya3
 You can use these.
-`prints("test")`
-`print("test")`
+`outs("test")out("test")`
 
 
