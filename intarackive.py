@@ -16,10 +16,10 @@ while True:
         bun = data[1].split(")")
         bun = bun[0]
         bun = bun.replace('"','')
-        if data[0] == "prints":
-            print(bun,"\n")
-        elif data[0] == "print":
+        if data[0] == "outs":
             print(bun)
+        elif data[0] == "out":
+            sys.stdout.write(bun)
 
 
 sys.exit()
